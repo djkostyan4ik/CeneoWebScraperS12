@@ -10,7 +10,7 @@
     <title>Ceneo.pl Web Scraper</title>
 </head>
 <body>
-    <header>
+    <header class = 'text-center'>
         <h1>Ceneo.pl Web Scraper</h1>
     </header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark container">
@@ -18,25 +18,28 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href=""><i class="bi bi-house-fill"></i> Strtona główna</a>
+                        <a class="nav-link" href="{{url_for('index')}}"><i class="bi bi-house-fill"></i> Strtona główna</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href=""><i class="bi bi-cloud-download-fill"></i>
-Ekstrakcja opinii</a>
+                        <a class="nav-link" href="{{url_for('extract')}}"><i class="bi bi-cloud-download-fill"></i>Ekstrakcja opinii</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href=""><i class="bi bi-list-stars"></i> Lista produktów</a>
+                        <a class="nav-link" href="{{url_for('products')}}"><i class="bi bi-list-stars"></i> Lista produktów</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href=""><i class="bi bi-person-circle"></i> O autorze</a>
+                        <a class="nav-link" href="{{url_for('author')}}"><i class="bi bi-person-circle"></i> O autorze</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <section>
+    <section class = "container">
         <div class="row">
             <div class="col">
+                <h2 class = 'text-center mt-3 mb-3'>
+                    {% block title %}
+                    {% endblock %}
+                </h2>
                 {% block content %}
                     <p>To jest plik bazowy.</p>
                 {% endblock %}
@@ -44,7 +47,7 @@ Ekstrakcja opinii</a>
         </div>
     </section>
 
-    <footer>
+    <footer class = 'container bg-dark text-light fixed-bottom text-center'>
         <p>Kanstantsin Malinouski, Uniwersytet Ekonomiczny w Krakowie</p>
     </footer>
 
