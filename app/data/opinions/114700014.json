@@ -1241,6 +1241,19 @@
         "purchase_date": "2023-12-13 09:19:54"
     },
     {
+        "opinion_id": "18673576",
+        "author": "Renassta",
+        "recommendation": "Polecam",
+        "rating": "5/5",
+        "content": "Ok. Starsza w praktyce na 30min odkurzania. Latwo sie oczyszcza.",
+        "pros": [],
+        "cons": [],
+        "useful": "0",
+        "useless": "0",
+        "post_date": "2024-05-24 08:48:37",
+        "purchase_date": "2024-05-16 12:12:10"
+    },
+    {
         "opinion_id": "18032553",
         "author": "d...z",
         "recommendation": "Polecam",
@@ -1747,6 +1760,24 @@
         "useless": "0",
         "post_date": "2024-01-20 14:15:56",
         "purchase_date": "2024-01-04 00:11:55"
+    },
+    {
+        "opinion_id": "18671745",
+        "author": "p...x",
+        "recommendation": "Polecam",
+        "rating": "5/5",
+        "content": "spełnia założone funkcje w skali 5/5",
+        "pros": [
+            "dużo końcówek",
+            "poręczny",
+            "przycisk zasilania",
+            "wyświetlacz"
+        ],
+        "cons": [],
+        "useful": "0",
+        "useless": "0",
+        "post_date": "2024-05-23 15:27:24",
+        "purchase_date": "2024-05-15 17:59:25"
     },
     {
         "opinion_id": "18174763",
@@ -3127,6 +3158,24 @@
         "purchase_date": "2023-04-23 10:00:47"
     },
     {
+        "opinion_id": "15826211",
+        "author": "Użytkownik Ceneo",
+        "recommendation": "Polecam",
+        "rating": "5/5",
+        "content": "Odkurzacz mały, poręczny przy tym posiada bardzo dobrą moc. Laser to super rzecz, do tej pory odkurzaliśmy przy świetle dziennym, teraz przy użyciu szczotki z laserem można odkurzać w ciemności i widać dokładnie każdą drobinkę kurzu. Szczotki dobrze dopasowane łatwo je zmieniać mam nadzieję, że będą trwałe. Czytałem dużo opinii pozytywnych które mogę teraz potwierdzić. Wart swojej ceny.",
+        "pros": [
+            "lekki",
+            "poręczny",
+            "przycisk zasilania",
+            "wyświetlacz"
+        ],
+        "cons": [],
+        "useful": "0",
+        "useless": "0",
+        "post_date": "2022-03-15 20:58:40",
+        "purchase_date": null
+    },
+    {
         "opinion_id": "18125745",
         "author": "t...l",
         "recommendation": "Nie polecam",
@@ -3145,24 +3194,6 @@
         "useless": "0",
         "post_date": "2023-11-22 12:40:45",
         "purchase_date": "2023-11-10 10:24:44"
-    },
-    {
-        "opinion_id": "15826211",
-        "author": "Użytkownik Ceneo",
-        "recommendation": "Polecam",
-        "rating": "5/5",
-        "content": "Odkurzacz mały, poręczny przy tym posiada bardzo dobrą moc. Laser to super rzecz, do tej pory odkurzaliśmy przy świetle dziennym, teraz przy użyciu szczotki z laserem można odkurzać w ciemności i widać dokładnie każdą drobinkę kurzu. Szczotki dobrze dopasowane łatwo je zmieniać mam nadzieję, że będą trwałe. Czytałem dużo opinii pozytywnych które mogę teraz potwierdzić. Wart swojej ceny.",
-        "pros": [
-            "lekki",
-            "poręczny",
-            "przycisk zasilania",
-            "wyświetlacz"
-        ],
-        "cons": [],
-        "useful": "0",
-        "useless": "0",
-        "post_date": "2022-03-15 20:58:40",
-        "purchase_date": null
     },
     {
         "opinion_id": "16211151",
